@@ -1,0 +1,3 @@
+.DS_Store
+.serverless/
+/lambda/custom/node_modules

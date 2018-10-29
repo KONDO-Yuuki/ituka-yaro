@@ -1,0 +1,37 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "いつかやろう",
+      "types": [],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "slots": [],
+          "samples": [
+            "豆知識",
+            "豆知識を教えて",
+            "他の豆知識",
+            "雑学",
+            "雑学を教えて",
+            "他の雑学",
+            "知識",
+            "何か",
+            "何か教えて"
+          ]
+        }
+      ]
+    }
+  }
+}

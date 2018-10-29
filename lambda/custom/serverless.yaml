@@ -1,0 +1,19 @@
+service: Fact
+
+provider:
+  name: aws
+  region: ap-northeast-1
+
+functions:
+  skillHandler:
+    name: ituka-yaro
+    description: いつかやろう
+    runtime: nodejs8.10
+    handler: index.handler
+    memorySize: 128
+    timeout: 8
+
+    events: # The Events that trigger this Function
+      - alexaSkill:
+          ? appId
+          enabled: true
