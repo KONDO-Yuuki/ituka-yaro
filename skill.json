@@ -4,8 +4,8 @@
       "locales": {
         "ja-JP": {
           "summary": "短い説明文を書くところ",
-          "examplePhrases": ["宇宙豆知識を開いて"],
-          "name": "宇宙豆知識",
+          "examplePhrases": ["いつかやろうを開いて"],
+          "name": "いつかやろう",
           "description": "長い説明文を書くところ"
         }
       },

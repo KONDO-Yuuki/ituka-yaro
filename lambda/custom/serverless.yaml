@@ -1,4 +1,4 @@
-service: Fact
+service: Ituka
 
 provider:
   name: aws
@@ -15,5 +15,5 @@ functions:
 
     events: # The Events that trigger this Function
       - alexaSkill:
-          ? appId
+          appId: amzn1.ask.skill.0167335f-5e69-4731-ba8e-0cd4a487f2b9
           enabled: true

@@ -1,15 +1,25 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.0167335f-5e69-4731-ba8e-0cd4a487f2b9",
       "merge": {
         "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "ask-custom-fact-default"
+                "uri": "ask-custom-ituka-default"
               }
             }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "10e845e8a9851f370f0b7e8cca43b2a5"
+        },
+        "interactionModel": {
+          "ja-JP": {
+            "eTag": "d1d0d5c6c6fffd739a9defe6375120bf"
           }
         }
       }
